@@ -17,7 +17,7 @@ Ymax : end of the computational domain in Y-direction
 N: number of points along the X-direction
 M: number of points along the Y-direction
 
-T: Temparature field specified as a 1D array as T[j*N+j] where 
+T: Temparature field specified as a 1D array as T[j*N+i] where 
 
 0<= i< N,  0<= j<M 
 
@@ -114,6 +114,7 @@ int main()
 
   VTK_out(N, M, &Xmin, &Xmax, &Ymin, &Ymax, T, 1);
   free(T);
+  return(0); 
 }
                             
 

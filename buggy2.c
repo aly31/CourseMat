@@ -2,7 +2,6 @@
 #include <mpi.h>
 
 // MPI_Ssend
-// deadlocking example.  Always deadlocks, because Ssend is synchronous (nonlocal)
 
 int main (int argc, char* argv[])
 {

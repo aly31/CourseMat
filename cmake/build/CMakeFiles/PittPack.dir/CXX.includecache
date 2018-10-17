@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/chunkedArray.h
+assert.h
+-
+iostream
+-
+
+/pylon5/ac561fp/hasbesta/CourseMat/CourseMat/cmake/src/chunkedArray.cpp
+chunkedArray.h
+/pylon5/ac561fp/hasbesta/CourseMat/CourseMat/cmake/src/chunkedArray.h
+
+/pylon5/ac561fp/hasbesta/CourseMat/CourseMat/cmake/src/main.cpp
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+chunkedArray.h
+/pylon5/ac561fp/hasbesta/CourseMat/CourseMat/cmake/src/chunkedArray.h
+

@@ -1,0 +1,3 @@
+/pylon5/ac561fp/hasbesta/CourseMat/CourseMat/cmake/build/CMakeFiles/edit_cache.dir
+/pylon5/ac561fp/hasbesta/CourseMat/CourseMat/cmake/build/CMakeFiles/rebuild_cache.dir
+/pylon5/ac561fp/hasbesta/CourseMat/CourseMat/cmake/build/CMakeFiles/PittPack.dir

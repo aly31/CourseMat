@@ -17,7 +17,6 @@ cudaMallocManaged((void**)&d_c, sizeof(int));
 
 add<<<1,1>>>(3,5,d_c);
 
-cudaDeviceSynchronize();
 
 printf("result is  %d\n", *d_c);
 

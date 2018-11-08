@@ -22,11 +22,9 @@ cudaGetDeviceProperties(&prop,i);
 printf("=======================================\n");
 printf(" name= %s\n",prop.name);
 printf(" compute cap= %d\n",prop.major);
-printf(" GlobalMem = %d\n",prop.totalGlobalMem);
-printf(" multi process count = %ld\n",prop.multiProcessorCount);
+printf(" GlobalMem = %d\n",prop.totalGlobalMem/1000000000);
+printf(" multi process count = %d\n",prop.multiProcessorCount);
 printf(" max thread/block = %d\n",prop.maxThreadsPerBlock);
-
-
 
 }
 

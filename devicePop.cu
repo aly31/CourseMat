@@ -23,7 +23,7 @@ printf("=======================================\n");
 printf(" name= %s\n",prop.name);
 printf(" compute cap= %d\n",prop.major);
 printf(" GlobalMem = %d\n",prop.totalGlobalMem);
-printf(" multi peocess count = %ld\n",prop.multiProcessorCount);
+printf(" multi process count = %ld\n",prop.multiProcessorCount);
 printf(" max thread/block = %d\n",prop.maxThreadsPerBlock);
 
 
